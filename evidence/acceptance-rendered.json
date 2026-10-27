@@ -1,0 +1,169 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"failed": 0,
+	"passed": 32,
+	"results": [
+		{
+			"details": "",
+			"passed": true,
+			"test": "Exactly one Erik/Dale420 player entity"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "No separate Erik NPC or obsolete find-Erik objective"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Erik starts in normal weak mode"
+		},
+		{
+			"details": "Morgana, Bellatrix, Sabrina, Lotusmicke; same verified orange material",
+			"passed": true,
+			"test": "All four family enemies have visible ginger meshes"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Erik has ginger bangs, freckles/acne and a skinny rig"
+		},
+		{
+			"details": "HP=58 meter=36",
+			"passed": true,
+			"test": "Actual family AI damage triggers awakening"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Awakening emits audio, screen flash and world effects"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Transformation keeps node, HP, inventory and position"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "DALE420 has a faster movement profile and visible stance"
+		},
+		{
+			"details": "punch=18 kick=36 normal_punch=5",
+			"passed": true,
+			"test": "Kung fu punch and kick do functionally different damage"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Evasive counter damages an enemy while avoiding damage"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Replayed attack IDs cannot apply duplicate damage"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Timed expiry returns Erik and advances forest escape"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "HP and inventory persist on expiry"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Damage farming cannot reawaken in the same encounter"
+		},
+		{
+			"details": "No teleport or stage setter used",
+			"passed": true,
+			"test": "Forest hideout reached by native movement and collisions"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Joint heals the same player's persistent HP"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Air rifle hits an actual practice-target physics ray"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Secret crumb evidence advances return-to-garage mission"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Return route starts the escalating family confrontation"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Lethal hazard safely clears multiple active traps"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Defeat stops gameplay and clears transformation"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Retry restores mission, HP, inventory, enemies and one normal player"
+		},
+		{
+			"details": "HP=72 joints=1",
+			"passed": true,
+			"test": "Three sisters can be defeated through production combat"
+		},
+		{
+			"details": "distractions=2 brawler_attacks=6 traps=1",
+			"passed": true,
+			"test": "Sisters executed distinct behaviors"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Lotusmicke has separate sandwich and intimidation heals"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Player damage interrupts boss healing windup"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Boss retry resets boss/fury while preserving evidence"
+		},
+		{
+			"details": "boss_hp=0 player_hp=60",
+			"passed": true,
+			"test": "Lotusmicke defeated and free roam stays active"
+		},
+		{
+			"details": "native distance=21.80 m",
+			"passed": true,
+			"test": "Yellow sports car drives, exits and drives again"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Driving retains one player and persistent HP/inventory"
+		},
+		{
+			"details": "",
+			"passed": true,
+			"test": "Mission includes every revised stage in order"
+		}
+	],
+	"screenshots": true,
+	"simulated_seconds": 75.9333333333303
+}

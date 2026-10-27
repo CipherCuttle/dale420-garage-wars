@@ -1,0 +1,92 @@
+{
+  "commands": [
+    {
+      "name": "import",
+      "argv": [
+        "/home/swirky/.local/share/vault-rats-tools/godot-4.7.2/Godot_v4.7.2-stable_linux.x86_64",
+        "--path",
+        "/home/swirky/dale420-garage-wars",
+        "--headless",
+        "--editor",
+        "--quit"
+      ],
+      "exit_code": 0,
+      "errors_or_warnings": []
+    },
+    {
+      "name": "acceptance",
+      "argv": [
+        "/home/swirky/.local/share/vault-rats-tools/godot-4.7.2/Godot_v4.7.2-stable_linux.x86_64",
+        "--path",
+        "/home/swirky/dale420-garage-wars",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/acceptance.gd"
+      ],
+      "exit_code": 0,
+      "errors_or_warnings": []
+    },
+    {
+      "name": "input-smoke",
+      "argv": [
+        "/home/swirky/.local/share/vault-rats-tools/godot-4.7.2/Godot_v4.7.2-stable_linux.x86_64",
+        "--path",
+        "/home/swirky/dale420-garage-wars",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/input_smoke.gd"
+      ],
+      "exit_code": 0,
+      "errors_or_warnings": []
+    },
+    {
+      "name": "rendered",
+      "argv": [
+        "/home/swirky/.local/share/vault-rats-tools/godot-4.7.2/Godot_v4.7.2-stable_linux.x86_64",
+        "--path",
+        "/home/swirky/dale420-garage-wars",
+        "--rendering-method",
+        "gl_compatibility",
+        "--audio-driver",
+        "Dummy",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/acceptance.gd",
+        "--",
+        "--capture"
+      ],
+      "exit_code": 0,
+      "errors_or_warnings": []
+    },
+    {
+      "name": "portraits",
+      "argv": [
+        "/home/swirky/.local/share/vault-rats-tools/godot-4.7.2/Godot_v4.7.2-stable_linux.x86_64",
+        "--path",
+        "/home/swirky/dale420-garage-wars",
+        "--rendering-method",
+        "gl_compatibility",
+        "--audio-driver",
+        "Dummy",
+        "--script",
+        "res://tests/portraits.gd"
+      ],
+      "exit_code": 0,
+      "errors_or_warnings": []
+    }
+  ],
+  "production_objective_scan": {
+    "passed": true,
+    "violations": []
+  },
+  "preserved_alpha_archive": {
+    "path": "/home/swirky/Downloads/dale420-garage-wars-alpha01.zip",
+    "sha256": "26ded7efae7122659cd1400601b77f3998eeb21877a835addcddca219c9a07d3"
+  },
+  "passed": true
+}

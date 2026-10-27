@@ -1,0 +1,56 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"failed": 0,
+	"input": "Input.parse_input_event physical key events through the live SceneTree",
+	"passed": 12,
+	"results": [
+		{
+			"passed": true,
+			"test": "Configurable intro, transformation and recovery clocks"
+		},
+		{
+			"passed": true,
+			"test": "Re-entering the same encounter does not reset its budget"
+		},
+		{
+			"passed": true,
+			"test": "A new mission encounter can awaken again"
+		},
+		{
+			"passed": true,
+			"test": "Reset clears fury, clocks, encounter credit and attack IDs"
+		},
+		{
+			"passed": true,
+			"test": "Enter starts via Godot's input event routing"
+		},
+		{
+			"passed": true,
+			"test": "WASD physical key events move the native player"
+		},
+		{
+			"passed": true,
+			"test": "Space triggers dodge through the actual key binding"
+		},
+		{
+			"passed": true,
+			"test": "Held/repeated dodge cannot bypass its cooldown"
+		},
+		{
+			"passed": true,
+			"test": "J and K route to distinct punch and kick actions"
+		},
+		{
+			"passed": true,
+			"test": "Q heals through the actual key binding"
+		},
+		{
+			"passed": true,
+			"test": "Arrow keys orbit the live native camera"
+		},
+		{
+			"passed": true,
+			"test": "R retries from the defeat screen through input routing"
+		}
+	]
+}
